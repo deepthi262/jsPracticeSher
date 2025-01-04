@@ -10,9 +10,11 @@ const repeatArray = (arr) => {
   }
 
  return outputArr
- */
+ */ //1st way
 
- return arr.concat(arr);
+ //return arr.concat(arr); --> 2nd way
+
+ return [...arr , ...arr];
  
 };
 
